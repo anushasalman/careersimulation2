@@ -24,7 +24,7 @@ body {
 .projectinfo {
   color:rgb(239, 221, 193);
   text-align: left;
-  font-size: medium;
+  font-size: small;
   background-image: url("https://garden.spoonflower.com/c/11649296/p/f/m/A9jzcoQPg7YZQxZTwLCdii9ivXI3YKalY4Aow3qfhmTgpCwk49K6hdDYyg/Pine%20Solid%20496b60.jpg");
   margin:20px;
   padding:40px;
@@ -59,13 +59,14 @@ body {
 .info {
   color:FFF8E3;
   text-align:right;
-  background-image: url("https://garden.spoonflower.com/c/11649296/p/f/m/A9jzcoQPg7YZQxZTwLCdii9ivXI3YKalY4Aow3qfhmTgpCwk49K6hdDYyg/Pine%20Solid%20496b60.jpg");
+  background-image:url("https://garden.spoonflower.com/c/11649296/p/f/m/A9jzcoQPg7YZQxZTwLCdii9ivXI3YKalY4Aow3qfhmTgpCwk49K6hdDYyg/Pine%20Solid%20496b60.jpg");
 }
 
 .submit {
   text-align:right;
   color:rgb(157, 0, 55);
   font-size:medium;
+  flex:display;
 }
 
 .success {
@@ -100,4 +101,19 @@ section > a {
   color:FFF8E3;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   text-decoration:none;
+}
+
+section > p:hover {
+  color:FFF8E3!important;
+  background-color:#E27396;
+  transition:background-color 1000ms linear;
+}
+
+a:hover {
+  color:F72798;
+}
+
+nav:hover {
+  background-color:#588970;
+  transition: background-color 1000ms linear;
 }
