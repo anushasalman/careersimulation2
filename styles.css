@@ -22,7 +22,7 @@ body {
 }
 
   .links {
-    font-size:x-large;
+    font-size:2vh;
     font-family:monospace;
     text-align: right;
   }
@@ -71,5 +71,13 @@ body {
     text-align:right;
     color:rgb(157, 0, 55);
   }
+
+  .success {
+    font-size: 1.2em;
+    color:whitesmoke;
+    text-align:right;
+    background-image: url("https://garden.spoonflower.com/c/11649296/p/f/m/A9jzcoQPg7YZQxZTwLCdii9ivXI3YKalY4Aow3qfhmTgpCwk49K6hdDYyg/Pine%20Solid%20496b60.jpg");
+  }
+  
 
   
