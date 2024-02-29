@@ -117,3 +117,12 @@ nav:hover {
   background-color:#588970;
   transition: background-color 1000ms linear;
 }
+
+
+/* For Smaller Screens */
+@media (max-width: 768px) {
+
+  .projects {
+    flex-direction:column;
+  }
+}
