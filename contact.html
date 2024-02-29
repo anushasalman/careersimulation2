@@ -19,23 +19,32 @@
 
   <main>
     <section class="submit">
-      <h3>Get in Touch With Me</h3>
+      <h3>Please enter info here</h3>
+      <p>Fields marked with an * are required.</p>
 
     <form>
-      <label for="fname">First Name:</label> <br />
-      <input type="text" id="fname"/> <br />
-      <label for="lname">Last Name:</label> <br />
-      <input type="text" id="lname"/><br />
-      <label for="cellnumber">Cell Number</label> <br />
-      <input type="number" id="cellnumber" required /> <br />
-      <label for="useremail">Email</label> <br />
-      <input type="email" id="useremail" required /> <br /><br>
+      <input placeholder="First name" name="fname"> <br />
+      <input placeholder="Last name" name="lname"> <br />
+      <input placeholder="Phone number *" name="cellnumber" required /> <br />
+      <input placeholder="Email *" name="useremail" required /> <br />
+
+      <h3>Get in Touch With Me</h3>
       <textarea rows="10" cols="40" name="comment" form="usrform">
         Tell me more...</textarea><br><br>
       <button type="submit" formaction="./success.html"> Submit</button>
-    </form>
+    </form> 
 
     </section>
   </main>
+
+  <footer>
+    <a href="https://www.facebook.com/" target="_blank">
+      <img class="logo" src="./facebooklogo.svg" alt="facebook logo" /></a> 
+    <a href="https://www.instagram.com/" target="_blank">
+      <img class="logo" src="./instagram.png" alt="instagram logo" /></a>
+    <a href="https://mail.google.com/" target="_blank">
+      <img class="logo" src="./Gmail_Logo_512px.png" alt="gmail logo" /></a> 
+  </footer>
+
 </body>
 </html>

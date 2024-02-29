@@ -21,63 +21,74 @@ body {
   background-image: url("https://garden.spoonflower.com/c/11649296/p/f/m/A9jzcoQPg7YZQxZTwLCdii9ivXI3YKalY4Aow3qfhmTgpCwk49K6hdDYyg/Pine%20Solid%20496b60.jpg");
 }
 
-  .links {
-    font-size:2vh;
-    font-family:monospace;
-    text-align: right;
-  }
+.links {
+  font-size:2vh;
+  font-family:monospace;
+  text-align: right;
+}
 
-  .projectinfo {
-    color:white;
-    text-align: left;
-    font-size: medium;
-    background-image: url("https://garden.spoonflower.com/c/11649296/p/f/m/A9jzcoQPg7YZQxZTwLCdii9ivXI3YKalY4Aow3qfhmTgpCwk49K6hdDYyg/Pine%20Solid%20496b60.jpg");
-    margin:20px;
-    padding:40px;
-    flex-direction: row;
-  }
+.projectinfo {
+  color:white;
+  text-align: left;
+  font-size: medium;
+  background-image: url("https://garden.spoonflower.com/c/11649296/p/f/m/A9jzcoQPg7YZQxZTwLCdii9ivXI3YKalY4Aow3qfhmTgpCwk49K6hdDYyg/Pine%20Solid%20496b60.jpg");
+  margin:20px;
+  padding:40px;
+  flex-direction: row;
+}
 
-  .about {
-    height: 200px;
-    width: 200px;
-    padding: 80px;
-    display:flex;
-    }
+.about {
+  height: 200px;
+  width: 200px;
+  padding: 80px;
+  display:flex;
+}
 
-  .home {
-    height: 250px;
-    width: 250px;
-    padding: 10px;
-    gap:40px;
-    margin-left: 100px;
-    display:flex;
-  }
+.home {
+  height: 250px;
+  width: 250px;
+  padding: 10px;
+  gap:40px;
+  margin-left: 100px;
+  display:flex;
+}
 
-  .projects {
-    height: 600px;
-    width: 900px;
-    padding: 80px;
-    display:flex;
-    flex-direction:row;
-  }
+.projects {
+  height: 600px;
+  width: 900px;
+  padding: 80px;
+  display:flex;
+  flex-direction:row;
+}
 
-  .info {
-    color:whitesmoke;
-    text-align:right;
-    background-image: url("https://garden.spoonflower.com/c/11649296/p/f/m/A9jzcoQPg7YZQxZTwLCdii9ivXI3YKalY4Aow3qfhmTgpCwk49K6hdDYyg/Pine%20Solid%20496b60.jpg");
-  }
+.info {
+  color:whitesmoke;
+  text-align:right;
+  background-image: url("https://garden.spoonflower.com/c/11649296/p/f/m/A9jzcoQPg7YZQxZTwLCdii9ivXI3YKalY4Aow3qfhmTgpCwk49K6hdDYyg/Pine%20Solid%20496b60.jpg");
+}
 
-  .submit {
-    text-align:right;
-    color:rgb(157, 0, 55);
-  }
+.submit {
+  text-align:right;
+  color:rgb(157, 0, 55);
+  font-size:medium;
+}
 
-  .success {
-    font-size: 1.2em;
-    color:whitesmoke;
-    text-align:right;
-    background-image: url("https://garden.spoonflower.com/c/11649296/p/f/m/A9jzcoQPg7YZQxZTwLCdii9ivXI3YKalY4Aow3qfhmTgpCwk49K6hdDYyg/Pine%20Solid%20496b60.jpg");
-  }
+.success {
+  font-size: 1em;
+  color:whitesmoke;
+  text-align:right;
+  background-image: url("https://garden.spoonflower.com/c/11649296/p/f/m/A9jzcoQPg7YZQxZTwLCdii9ivXI3YKalY4Aow3qfhmTgpCwk49K6hdDYyg/Pine%20Solid%20496b60.jpg");
+}
   
+.logo {
+  height: 60px;
+ }
 
-  
+footer {
+  background-image:url("./footer.webp");
+  padding: 5px;
+  bottom:0;
+  position:absolute;
+  width:100%;
+  flex:display;
+}
